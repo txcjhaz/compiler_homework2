@@ -39,5 +39,13 @@ def load_CFG():
 
         return grammar
     
+def load_lang():
+    content = ''
+    with open(config.lang_path) as f:
+        content = f.read()
+        print('-----读取language成功-----')
+        print(content)
 
+    if content != '':
+        return content
 # print(load_CFG())

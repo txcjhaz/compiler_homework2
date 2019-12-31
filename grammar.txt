@@ -1,2 +1,2 @@
-S->BB
+S->BBB
 B->aB | b
